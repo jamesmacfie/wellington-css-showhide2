@@ -1,0 +1,21 @@
+{
+  "name": "Wellington CSS - Show/hide content #2",
+  "version": "0.0.1",
+  "authors": [
+    "James Macfie <james@macfie.co.nz>"
+  ],
+  "description": "CSS only toggling of content visibility (part 2)",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://jamesmacfie.com",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "css"
+  ],
+  "dependencies": {
+
+  }
+}

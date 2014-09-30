@@ -1,0 +1,62 @@
+/* Variables */
+$text: #333;
+$link: #00c4e7;
+
+/* Base */
+body {
+  color: $text;
+  font-family: helvetica;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Cylburn';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/Cylburn.ttf') format('truetype');
+}
+
+/* Text */
+.title {
+  font-family: Cylburn;
+  font-size: 72px;
+  text-align: center;
+}
+
+/* Content */
+.content {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  position: relative;
+}
+
+/* Toggle */
+.showQuestion {
+  display: none;
+}
+
+.answer {
+  display: none;
+}
+
+.showQuestion:checked ~.answer {
+  display: block;
+}
+
+.question {
+  color: $link;
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+/* Additions to fix the label text. Remove the .showToggle HTML content first */
+
+// .showToggleLabel:after {
+//   content: 'more';
+// }
+
+// .showToggle:checked ~ .showToggleLabel:after {
+//   content: 'less';
+// }
